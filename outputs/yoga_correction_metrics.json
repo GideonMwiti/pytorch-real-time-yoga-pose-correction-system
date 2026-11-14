@@ -1,0 +1,64 @@
+{
+    "model_architecture": {
+        "name": "YogaNet",
+        "parameters": 23749,
+        "model_size_kb": 92.76953125,
+        "input_features": 99,
+        "num_classes": 5,
+        "mean_latency_ms": 0.318,
+        "fps_throughput": 3149.5
+    },
+    "alignment_eval": {
+        "ideal_warrior_score": 94.8,
+        "imperfect_warrior_score": 71.4,
+        "sample_correction_cue": "Front knee overshooting ankle! Ease back towards 90\u00b0 (current: 71\u00b0)"
+    },
+    "training": {
+        "epochs": 25,
+        "duration_seconds": 3.4,
+        "best_val_accuracy": 100.0
+    },
+    "test_performance": {
+        "accuracy_pct": 100.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+            [
+                36,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                41,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                37,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                41,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                33
+            ]
+        ]
+    }
+}
