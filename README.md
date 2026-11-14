@@ -264,3 +264,4 @@ The script will automatically synthesize the yoga posture dataset, benchmark bio
 ## License
 
 This project is open-source under the [MIT License](LICENSE).
+
